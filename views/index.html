@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='./public/stylesheets/style.css' />
+    <link rel="stylesheet" href="./public/stylesheets/bootstrap.css" />
+  </head>
+  <body>
+    <% include header.html %>
+    <!-- <h1><%= title %></h1> -->
+    <p>Welcome to <%= title %></p>
+    <div class="container">
+        <div class="form-group">
+            <div class="col-sm-6">
+                <a>随便逛逛</a>
+            </div>
+            <div class="col-sm-6">
+                <a>Cary`s blogs</a>
+            </div>
+            <div>
+              <a href="/login">去登录</a>
+            </div>
+        </div>
+    </div>
+    <% include footer.html %>
+  </body>
+</html>
